@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customers | ClientFlow CRM</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Shared navigation. All links open separate HTML pages. -->
+  <aside class="sidebar">
+    <a class="brand" href="index.html">ClientFlow<span>.</span></a>
+    <p class="eyebrow">WORKSPACE</p>
+    <nav aria-label="Main navigation">
+          <a href="index.html">Dashboard</a>
+          <a href="customers.html" class="active">Customers</a>
+          <a href="projects.html">Projects</a>
+          <a href="tickets.html">Tickets</a>
+          <a href="leads.html">Leads</a>
+          <a href="inquiries.html">Inquiries</a>
+          <a href="reports.html">Reports</a>
+    </nav>
+    <p class="sidebar-note"><strong>Administrator</strong><br>Static CRM sample</p>
+  </aside>
+  <div class="page">
+    <header class="topbar">
+      <!-- The phone menu uses HTML details, so JavaScript is not needed. -->
+      <details class="mobile-menu">
+        <summary>☰ Menu</summary>
+        <nav aria-label="Phone navigation">
+          <a href="index.html">Dashboard</a>
+          <a href="customers.html" class="active">Customers</a>
+          <a href="projects.html">Projects</a>
+          <a href="tickets.html">Tickets</a>
+          <a href="leads.html">Leads</a>
+          <a href="inquiries.html">Inquiries</a>
+          <a href="reports.html">Reports</a>
+        </nav>
+      </details>
+      <span>Workspace / Customers</span>
+      <div class="button-row">
+        <a href="client-access.html">Client portal</a>
+        <a href="inquiry.html">Public inquiry</a>
+      </div>
+    </header>
+    <main>
+      <div class="page-title">
+        <div>
+          <span class="eyebrow">CLIENTFLOW CRM</span>
+          <h1>Customers</h1>
+          <p>Contact details and connected customer records.</p>
+        </div>
+        <a class="button" href="new-customer.html">+ Add customer</a>
+      </div>
+      <!-- Sample records are written directly below. Edit this HTML to change them. -->
+      <section class="card">
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Customer</th><th>Email</th><th>Location</th><th>Projects</th><th>Active tickets</th></tr></thead>
+          <tbody>
+            <tr>
+              <td data-label="Customer"><a href="customer-detail.html">Everest Digital</a><small>Aarav Sharma</small></td>
+              <td data-label="Email">aarav@everest.example</td>
+              <td data-label="Location">Kathmandu, Nepal</td>
+              <td data-label="Projects">1</td>
+              <td data-label="Active tickets">2</td>
+            </tr>
+            <tr>
+              <td data-label="Customer"><strong>Himalayan Ventures</strong><small>Maya Gurung</small></td>
+              <td data-label="Email">maya@himalayan.example</td>
+              <td data-label="Location">Pokhara, Nepal</td>
+              <td data-label="Projects">1</td>
+              <td data-label="Active tickets">1</td>
+            </tr>
+            <tr>
+              <td data-label="Customer"><strong>Bloom &amp; Co.</strong><small>Nisha Shrestha</small></td>
+              <td data-label="Email">nisha@bloom.example</td>
+              <td data-label="Location">Lalitpur, Nepal</td>
+              <td data-label="Projects">1</td>
+              <td data-label="Active tickets">0</td>
+            </tr>
+            <tr>
+              <td data-label="Customer"><strong>Northstar Studio</strong><small>Rohan Karki</small></td>
+              <td data-label="Email">rohan@northstar.example</td>
+              <td data-label="Location">Bhaktapur, Nepal</td>
+              <td data-label="Projects">1</td>
+              <td data-label="Active tickets">1</td>
+            </tr>
+            <tr>
+              <td data-label="Customer"><strong>Aster Education</strong><small>Sita Thapa</small></td>
+              <td data-label="Email">sita@aster.example</td>
+              <td data-label="Location">Kathmandu, Nepal</td>
+              <td data-label="Projects">1</td>
+              <td data-label="Active tickets">0</td>
+            </tr>
+            <tr>
+              <td data-label="Customer"><strong>Meridian Foods</strong><small>Bikash Rai</small></td>
+              <td data-label="Email">bikash@meridian.example</td>
+              <td data-label="Location">Chitwan, Nepal</td>
+              <td data-label="Projects">0</td>
+              <td data-label="Active tickets">0</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      </section>
+      <footer>ClientFlow · Static UI with dummy data · No backend</footer>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add customer | ClientFlow CRM</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Shared navigation. All links open separate HTML pages. -->
+  <aside class="sidebar">
+    <a class="brand" href="index.html">ClientFlow<span>.</span></a>
+    <p class="eyebrow">WORKSPACE</p>
+    <nav aria-label="Main navigation">
+          <a href="index.html">Dashboard</a>
+          <a href="customers.html" class="active">Customers</a>
+          <a href="projects.html">Projects</a>
+          <a href="tickets.html">Tickets</a>
+          <a href="leads.html">Leads</a>
+          <a href="inquiries.html">Inquiries</a>
+          <a href="reports.html">Reports</a>
+    </nav>
+    <p class="sidebar-note"><strong>Administrator</strong><br>Static CRM sample</p>
+  </aside>
+  <div class="page">
+    <header class="topbar">
+      <!-- The phone menu uses HTML details, so JavaScript is not needed. -->
+      <details class="mobile-menu">
+        <summary>☰ Menu</summary>
+        <nav aria-label="Phone navigation">
+          <a href="index.html">Dashboard</a>
+          <a href="customers.html" class="active">Customers</a>
+          <a href="projects.html">Projects</a>
+          <a href="tickets.html">Tickets</a>
+          <a href="leads.html">Leads</a>
+          <a href="inquiries.html">Inquiries</a>
+          <a href="reports.html">Reports</a>
+        </nav>
+      </details>
+      <span>Workspace / Add customer</span>
+      <div class="button-row">
+        <a href="client-access.html">Client portal</a>
+        <a href="inquiry.html">Public inquiry</a>
+      </div>
+    </header>
+    <main>
+      <div class="page-title">
+        <div>
+          <span class="eyebrow">CLIENTFLOW CRM</span>
+          <h1>Add customer</h1>
+          <p>A simple customer information form.</p>
+        </div>
+        
+      </div>
+      <!-- Sample records are written directly below. Edit this HTML to change them. -->
+      <a class="back-link" href="customers.html">← Back to customers</a>
+      <section class="card form-card">
+        <form class="demo-form">
+          <label>Customer or company name<input required type="text" name="company" placeholder="e.g. Everest Digital"></label>
+          <div class="form-columns"><label>Contact person<input required type="text" name="contact"></label><label>Email address<input required type="email" name="email"></label></div>
+          <div class="form-columns"><label>Phone number<input type="tel" name="phone"></label><label>Address<input type="text" name="address"></label></div>
+          <label>Business details<textarea name="business" placeholder="Describe the customer's business…"></textarea></label>
+          <button class="button" type="submit">Preview customer form</button>
+          <p class="form-note">The sample customer list is static. This form does not add or save records.</p>
+          <p class="notice" hidden tabindex="-1">This is a static form preview. No data was sent or saved.</p>
+        </form>
+      </section>
+      <footer>ClientFlow · Static UI with dummy data · No backend</footer>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

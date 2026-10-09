@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reports | ClientFlow CRM</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Shared navigation. All links open separate HTML pages. -->
+  <aside class="sidebar">
+    <a class="brand" href="index.html">ClientFlow<span>.</span></a>
+    <p class="eyebrow">WORKSPACE</p>
+    <nav aria-label="Main navigation">
+          <a href="index.html">Dashboard</a>
+          <a href="customers.html">Customers</a>
+          <a href="projects.html">Projects</a>
+          <a href="tickets.html">Tickets</a>
+          <a href="leads.html">Leads</a>
+          <a href="inquiries.html">Inquiries</a>
+          <a href="reports.html" class="active">Reports</a>
+    </nav>
+    <p class="sidebar-note"><strong>Administrator</strong><br>Static CRM sample</p>
+  </aside>
+  <div class="page">
+    <header class="topbar">
+      <!-- The phone menu uses HTML details, so JavaScript is not needed. -->
+      <details class="mobile-menu">
+        <summary>☰ Menu</summary>
+        <nav aria-label="Phone navigation">
+          <a href="index.html">Dashboard</a>
+          <a href="customers.html">Customers</a>
+          <a href="projects.html">Projects</a>
+          <a href="tickets.html">Tickets</a>
+          <a href="leads.html">Leads</a>
+          <a href="inquiries.html">Inquiries</a>
+          <a href="reports.html" class="active">Reports</a>
+        </nav>
+      </details>
+      <span>Workspace / Reports</span>
+      <div class="button-row">
+        <a href="client-access.html">Client portal</a>
+        <a href="inquiry.html">Public inquiry</a>
+      </div>
+    </header>
+    <main>
+      <div class="page-title">
+        <div>
+          <span class="eyebrow">CLIENTFLOW CRM</span>
+          <h1>Reports</h1>
+          <p>Sample support, project, and sales summaries.</p>
+        </div>
+        
+      </div>
+      <!-- Sample records are written directly below. Edit this HTML to change them. -->
+      <div class="stats">
+        <section class="stat"><span class="muted">Total customers</span><strong>6</strong><small>Connected customer accounts</small></section>
+        <section class="stat"><span class="muted">Active tickets</span><strong>4</strong><small>1 reopened issue</small></section>
+        <section class="stat"><span class="muted">Active leads</span><strong>5</strong><small>Across the sales pipeline</small></section>
+        <section class="stat"><span class="muted">Follow-ups due</span><strong>3</strong><small>Today and overdue</small></section>
+      </div>      <div class="grid">
+        <section class="card"><h2>Support status</h2><dl class="details"><div><dt>Open</dt><dd>2</dd></div><div><dt>In Progress</dt><dd>1</dd></div><div><dt>Awaiting Client Response</dt><dd>1</dd></div><div><dt>Resolved</dt><dd>1</dd></div><div><dt>Closed</dt><dd>1</dd></div></dl></section>
+        <section class="card"><h2>Project summary</h2><dl class="details"><div><dt>Total projects</dt><dd>5</dd></div><div><dt>Completed</dt><dd>3</dd></div><div><dt>Active</dt><dd>2</dd></div></dl><h2 style="margin-top:24px">Sales summary</h2><p>7 leads · 1 won · 1 lost</p><p class="muted">All values are sample data in this HTML file.</p></section>
+      </div>
+      <footer>ClientFlow · Static UI with dummy data · No backend</footer>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

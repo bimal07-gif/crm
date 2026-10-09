@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New support ticket | ClientFlow CRM</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Shared navigation. All links open separate HTML pages. -->
+  <aside class="sidebar">
+    <a class="brand" href="index.html">ClientFlow<span>.</span></a>
+    <p class="eyebrow">WORKSPACE</p>
+    <nav aria-label="Main navigation">
+          <a href="client.html" class="active">My workspace</a>
+          <a href="new-ticket.html">New support ticket</a>
+          <a href="inquiry.html">Public inquiry</a>
+    </nav>
+    <p class="sidebar-note"><strong>Client</strong><br>Static CRM sample</p>
+  </aside>
+  <div class="page">
+    <header class="topbar">
+      <!-- The phone menu uses HTML details, so JavaScript is not needed. -->
+      <details class="mobile-menu">
+        <summary>☰ Menu</summary>
+        <nav aria-label="Phone navigation">
+          <a href="client.html" class="active">My workspace</a>
+          <a href="new-ticket.html">New support ticket</a>
+          <a href="inquiry.html">Public inquiry</a>
+        </nav>
+      </details>
+      <span>Workspace / New support ticket</span>
+      <div class="button-row">
+        <a href="client-access.html">Sign out</a>
+        <a href="inquiry.html">Public inquiry</a>
+      </div>
+    </header>
+    <main>
+      <div class="page-title">
+        <div>
+          <span class="eyebrow">CLIENTFLOW CRM</span>
+          <h1>New support ticket</h1>
+          <p>Describe an issue with your completed project.</p>
+        </div>
+        
+      </div>
+      <!-- Sample records are written directly below. Edit this HTML to change them. -->
+      <section class="card form-card">
+        <form class="demo-form">
+          <label>Project<select name="project"><option>E-commerce platform · Everest Digital</option></select></label>
+          <label>Subject<input required type="text" name="subject" placeholder="A short description of the issue"></label>
+          <label>Issue description<textarea required name="description" placeholder="What happened? What did you expect?"></textarea></label>
+          <label>Priority<select name="priority"><option>Medium</option><option>Low</option><option>High</option></select></label>
+          <button class="button" type="submit">Preview ticket form</button>
+          <p class="form-note">This is a static UI. No ticket will be created or saved.</p>
+          <p class="notice" hidden tabindex="-1">This is a static form preview. No data was sent or saved.</p>
+        </form>
+      </section>
+      <footer>ClientFlow · Static UI with dummy data · No backend</footer>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

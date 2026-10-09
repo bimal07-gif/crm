@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Everest Digital | ClientFlow CRM</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Shared navigation. All links open separate HTML pages. -->
+  <aside class="sidebar">
+    <a class="brand" href="index.html">ClientFlow<span>.</span></a>
+    <p class="eyebrow">WORKSPACE</p>
+    <nav aria-label="Main navigation">
+          <a href="index.html">Dashboard</a>
+          <a href="customers.html" class="active">Customers</a>
+          <a href="projects.html">Projects</a>
+          <a href="tickets.html">Tickets</a>
+          <a href="leads.html">Leads</a>
+          <a href="inquiries.html">Inquiries</a>
+          <a href="reports.html">Reports</a>
+    </nav>
+    <p class="sidebar-note"><strong>Administrator</strong><br>Static CRM sample</p>
+  </aside>
+  <div class="page">
+    <header class="topbar">
+      <!-- The phone menu uses HTML details, so JavaScript is not needed. -->
+      <details class="mobile-menu">
+        <summary>☰ Menu</summary>
+        <nav aria-label="Phone navigation">
+          <a href="index.html">Dashboard</a>
+          <a href="customers.html" class="active">Customers</a>
+          <a href="projects.html">Projects</a>
+          <a href="tickets.html">Tickets</a>
+          <a href="leads.html">Leads</a>
+          <a href="inquiries.html">Inquiries</a>
+          <a href="reports.html">Reports</a>
+        </nav>
+      </details>
+      <span>Workspace / Everest Digital</span>
+      <div class="button-row">
+        <a href="client-access.html">Client portal</a>
+        <a href="inquiry.html">Public inquiry</a>
+      </div>
+    </header>
+    <main>
+      <div class="page-title">
+        <div>
+          <span class="eyebrow">CLIENTFLOW CRM</span>
+          <h1>Everest Digital</h1>
+          <p>Customer profile and connected records.</p>
+        </div>
+        
+      </div>
+      <!-- Sample records are written directly below. Edit this HTML to change them. -->
+      <a class="back-link" href="customers.html">← Back to customers</a>
+      <div class="grid">
+        <section class="card">
+          <h2>Customer details</h2>
+          <dl class="details">
+            <div><dt>Contact person</dt><dd>Aarav Sharma</dd></div>
+            <div><dt>Email</dt><dd>aarav@everest.example</dd></div>
+            <div><dt>Phone</dt><dd>+977 980 100 2401</dd></div>
+            <div><dt>Address</dt><dd>Kathmandu, Nepal</dd></div>
+            <div><dt>Business</dt><dd>Digital products and commerce</dd></div>
+          </dl>
+          <h2 style="margin-top:25px">Project</h2>
+          <p>E-commerce platform</p><span class="badge">Completed September 28</span>
+        </section>
+        <section class="card"><h2>Internal notes</h2><p class="muted">Administrator view only</p><p>Prefers email updates. Quarterly review planned for November.</p></section>
+      </div>
+      <footer>ClientFlow · Static UI with dummy data · No backend</footer>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sales pipeline | ClientFlow CRM</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Shared navigation. All links open separate HTML pages. -->
+  <aside class="sidebar">
+    <a class="brand" href="index.html">ClientFlow<span>.</span></a>
+    <p class="eyebrow">WORKSPACE</p>
+    <nav aria-label="Main navigation">
+          <a href="index.html">Dashboard</a>
+          <a href="customers.html">Customers</a>
+          <a href="projects.html">Projects</a>
+          <a href="tickets.html">Tickets</a>
+          <a href="leads.html" class="active">Leads</a>
+          <a href="inquiries.html">Inquiries</a>
+          <a href="reports.html">Reports</a>
+    </nav>
+    <p class="sidebar-note"><strong>Administrator</strong><br>Static CRM sample</p>
+  </aside>
+  <div class="page">
+    <header class="topbar">
+      <!-- The phone menu uses HTML details, so JavaScript is not needed. -->
+      <details class="mobile-menu">
+        <summary>☰ Menu</summary>
+        <nav aria-label="Phone navigation">
+          <a href="index.html">Dashboard</a>
+          <a href="customers.html">Customers</a>
+          <a href="projects.html">Projects</a>
+          <a href="tickets.html">Tickets</a>
+          <a href="leads.html" class="active">Leads</a>
+          <a href="inquiries.html">Inquiries</a>
+          <a href="reports.html">Reports</a>
+        </nav>
+      </details>
+      <span>Workspace / Sales pipeline</span>
+      <div class="button-row">
+        <a href="client-access.html">Client portal</a>
+        <a href="inquiry.html">Public inquiry</a>
+      </div>
+    </header>
+    <main>
+      <div class="page-title">
+        <div>
+          <span class="eyebrow">CLIENTFLOW CRM</span>
+          <h1>Sales pipeline</h1>
+          <p>Sample leads grouped by their current stage.</p>
+        </div>
+        
+      </div>
+      <!-- Sample records are written directly below. Edit this HTML to change them. -->
+      <div class="pipeline">
+        <section class="stage"><h2>New</h2>
+          <article class="lead"><h3>Vista Health</h3><small>Sanjay Bista</small><p>Clinic website and inquiry forms</p><span class="badge gray">Oct 10</span></article>
+          <article class="lead"><h3>Peak Logistics</h3><small>Samir Adhikari</small><p>Business website</p><span class="badge gray">Oct 8 · Overdue</span></article>
+        </section>
+        <section class="stage"><h2>Contacted</h2>
+          <article class="lead"><h3>Craft Collective</h3><small>Pooja Shah</small><p>Brand portfolio</p><span class="badge gray">Oct 12</span></article>
+        </section>
+        <section class="stage"><h2>Qualified</h2>
+          <article class="lead"><h3>Oakridge Realty</h3><small>Anita Lama</small><p>Property listing website</p><span class="badge gray">Oct 9</span></article>
+        </section>
+        <section class="stage"><h2>Proposal Sent</h2>
+          <article class="lead"><h3>Summit Hospitality</h3><small>Pratik Joshi</small><p>Hotel booking platform</p><span class="badge gray">Oct 9</span></article>
+        </section>
+        <section class="stage"><h2>Won</h2>
+          <article class="lead"><h3>Meridian Foods</h3><small>Bikash Rai</small><p>Company website</p><span class="badge gray">Converted to customer</span></article>
+        </section>
+        <section class="stage"><h2>Lost</h2>
+          <article class="lead"><h3>Urban Threads</h3><small>Kiran Nepal</small><p>Online store</p><span class="badge gray">Project deferred</span></article>
+        </section>
+      </div>
+      <footer>ClientFlow · Static UI with dummy data · No backend</footer>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

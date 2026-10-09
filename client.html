@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome back, Aarav. | ClientFlow CRM</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Shared navigation. All links open separate HTML pages. -->
+  <aside class="sidebar">
+    <a class="brand" href="index.html">ClientFlow<span>.</span></a>
+    <p class="eyebrow">WORKSPACE</p>
+    <nav aria-label="Main navigation">
+          <a href="client.html" class="active">My workspace</a>
+          <a href="new-ticket.html">New support ticket</a>
+          <a href="inquiry.html">Public inquiry</a>
+    </nav>
+    <p class="sidebar-note"><strong>Client</strong><br>Static CRM sample</p>
+  </aside>
+  <div class="page">
+    <header class="topbar">
+      <!-- The phone menu uses HTML details, so JavaScript is not needed. -->
+      <details class="mobile-menu">
+        <summary>☰ Menu</summary>
+        <nav aria-label="Phone navigation">
+          <a href="client.html" class="active">My workspace</a>
+          <a href="new-ticket.html">New support ticket</a>
+          <a href="inquiry.html">Public inquiry</a>
+        </nav>
+      </details>
+      <span>Workspace / Welcome back, Aarav.</span>
+      <div class="button-row">
+        <a href="client-access.html">Sign out</a>
+        <a href="inquiry.html">Public inquiry</a>
+      </div>
+    </header>
+    <main>
+      <div class="page-title">
+        <div>
+          <span class="eyebrow">CLIENTFLOW CRM</span>
+          <h1>Welcome back, Aarav.</h1>
+          <p>Your own projects and support conversations.</p>
+        </div>
+        
+      </div>
+      <!-- Sample records are written directly below. Edit this HTML to change them. -->
+      <section class="banner"><div><h2>E-commerce platform</h2><p>Completed September 28 · Everest Digital</p></div><a class="button secondary" href="new-ticket.html">New support ticket</a></section>
+      <section class="card"><h2>Your tickets</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Ticket</th><th>Status</th><th>Priority</th><th>Created</th></tr></thead>
+          <tbody>
+            <tr>
+              <td data-label="Ticket"><a href="client-ticket.html">Checkout confirmation email not received</a><small>#1042</small></td>
+              <td data-label="Status"><span class="badge blue">Open</span></td>
+              <td data-label="Priority"><span class="badge red">High</span></td>
+              <td data-label="Created">Oct 9</td>
+            </tr>
+            <tr>
+              <td data-label="Ticket"><strong>Mobile product images appear cropped</strong><small>#1040</small></td>
+              <td data-label="Status"><span class="badge amber">Awaiting Client Response</span></td>
+              <td data-label="Priority"><span class="badge amber">Medium</span></td>
+              <td data-label="Created">Oct 7</td>
+            </tr>
+            <tr>
+              <td data-label="Ticket"><strong>Update footer contact details</strong><small>#1037</small></td>
+              <td data-label="Status"><span class="badge gray">Closed</span></td>
+              <td data-label="Priority"><span class="badge gray">Low</span></td>
+              <td data-label="Created">Oct 3</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      </section>
+      <footer>ClientFlow · Static UI with dummy data · No backend</footer>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

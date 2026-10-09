@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Let’s start a conversation. | ClientFlow CRM</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Shared navigation. All links open separate HTML pages. -->
+  <aside class="sidebar">
+    <a class="brand" href="index.html">ClientFlow<span>.</span></a>
+    <p class="eyebrow">WORKSPACE</p>
+    <nav aria-label="Main navigation">
+          <a href="client.html" class="active">My workspace</a>
+          <a href="new-ticket.html">New support ticket</a>
+          <a href="inquiry.html">Public inquiry</a>
+    </nav>
+    <p class="sidebar-note"><strong>Client</strong><br>Static CRM sample</p>
+  </aside>
+  <div class="page">
+    <header class="topbar">
+      <!-- The phone menu uses HTML details, so JavaScript is not needed. -->
+      <details class="mobile-menu">
+        <summary>☰ Menu</summary>
+        <nav aria-label="Phone navigation">
+          <a href="client.html" class="active">My workspace</a>
+          <a href="new-ticket.html">New support ticket</a>
+          <a href="inquiry.html">Public inquiry</a>
+        </nav>
+      </details>
+      <span>Workspace / Let’s start a conversation.</span>
+      <div class="button-row">
+        <a href="index.html">Administrator view</a>
+        <a href="inquiry.html">Public inquiry</a>
+      </div>
+    </header>
+    <main>
+      <div class="page-title">
+        <div>
+          <span class="eyebrow">CLIENTFLOW CRM</span>
+          <h1>Let’s start a conversation.</h1>
+          <p>Tell us about your project or question.</p>
+        </div>
+        
+      </div>
+      <!-- Sample records are written directly below. Edit this HTML to change them. -->
+      <section class="card form-card">
+        <h2>How can we help?</h2>
+        <form class="demo-form">
+          <div class="form-columns"><label>Your name<input required type="text" name="name" placeholder="Your full name"></label><label>Email address<input required type="email" name="email" placeholder="you@example.com"></label></div>
+          <label>Phone number (optional)<input type="tel" name="phone" placeholder="+977 …"></label>
+          <label>Your message<textarea required name="message" placeholder="Tell us about your project…"></textarea></label>
+          <button class="button" type="submit">Preview inquiry</button>
+          <p class="form-note">This form does not send an inquiry. Entering an email does not provide access to customer records.</p>
+          <p class="notice" hidden tabindex="-1">This is a static form preview. No data was sent or saved.</p>
+        </form>
+      </section>
+      <footer>ClientFlow · Static UI with dummy data · No backend</footer>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

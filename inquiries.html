@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inquiries | ClientFlow CRM</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Shared navigation. All links open separate HTML pages. -->
+  <aside class="sidebar">
+    <a class="brand" href="index.html">ClientFlow<span>.</span></a>
+    <p class="eyebrow">WORKSPACE</p>
+    <nav aria-label="Main navigation">
+          <a href="index.html">Dashboard</a>
+          <a href="customers.html">Customers</a>
+          <a href="projects.html">Projects</a>
+          <a href="tickets.html">Tickets</a>
+          <a href="leads.html">Leads</a>
+          <a href="inquiries.html" class="active">Inquiries</a>
+          <a href="reports.html">Reports</a>
+    </nav>
+    <p class="sidebar-note"><strong>Administrator</strong><br>Static CRM sample</p>
+  </aside>
+  <div class="page">
+    <header class="topbar">
+      <!-- The phone menu uses HTML details, so JavaScript is not needed. -->
+      <details class="mobile-menu">
+        <summary>☰ Menu</summary>
+        <nav aria-label="Phone navigation">
+          <a href="index.html">Dashboard</a>
+          <a href="customers.html">Customers</a>
+          <a href="projects.html">Projects</a>
+          <a href="tickets.html">Tickets</a>
+          <a href="leads.html">Leads</a>
+          <a href="inquiries.html" class="active">Inquiries</a>
+          <a href="reports.html">Reports</a>
+        </nav>
+      </details>
+      <span>Workspace / Inquiries</span>
+      <div class="button-row">
+        <a href="client-access.html">Client portal</a>
+        <a href="inquiry.html">Public inquiry</a>
+      </div>
+    </header>
+    <main>
+      <div class="page-title">
+        <div>
+          <span class="eyebrow">CLIENTFLOW CRM</span>
+          <h1>Inquiries</h1>
+          <p>New inquiries remain unverified until they are reviewed.</p>
+        </div>
+        <a class="button secondary" href="inquiry.html">Open public form</a>
+      </div>
+      <!-- Sample records are written directly below. Edit this HTML to change them. -->
+      <section class="card">
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Sender</th><th>Message</th><th>Submitted</th><th>Review</th></tr></thead>
+          <tbody>
+            <tr>
+              <td data-label="Sender"><strong>Sabina KC</strong><small>sabina@terrace.example</small></td>
+              <td data-label="Message">We are looking for a website for our café. Can we discuss the scope?</td>
+              <td data-label="Submitted">Oct 9</td>
+              <td data-label="Review"><span class="badge amber">Pending</span></td>
+            </tr>
+            <tr>
+              <td data-label="Sender"><strong>Aarav Sharma</strong><small>aarav@everest.example</small></td>
+              <td data-label="Message">Can we discuss a maintenance plan for our existing store?</td>
+              <td data-label="Submitted">Oct 8</td>
+              <td data-label="Review"><span class="badge amber">Pending</span></td>
+            </tr>
+            <tr>
+              <td data-label="Sender"><strong>Deepak Poudel</strong><small>deepak@river.example</small></td>
+              <td data-label="Message">We need an online catalog for our furniture business.</td>
+              <td data-label="Submitted">Oct 7</td>
+              <td data-label="Review"><span class="badge amber">Pending</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      </section>
+      <p class="muted">An email match alone does not verify a sender or grant customer portal access.</p>
+      <footer>ClientFlow · Static UI with dummy data · No backend</footer>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

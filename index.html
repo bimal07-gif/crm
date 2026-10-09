@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A good day to build connections. | ClientFlow CRM</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Shared navigation. All links open separate HTML pages. -->
+  <aside class="sidebar">
+    <a class="brand" href="index.html">ClientFlow<span>.</span></a>
+    <p class="eyebrow">WORKSPACE</p>
+    <nav aria-label="Main navigation">
+          <a href="index.html" class="active">Dashboard</a>
+          <a href="customers.html">Customers</a>
+          <a href="projects.html">Projects</a>
+          <a href="tickets.html">Tickets</a>
+          <a href="leads.html">Leads</a>
+          <a href="inquiries.html">Inquiries</a>
+          <a href="reports.html">Reports</a>
+    </nav>
+    <p class="sidebar-note"><strong>Administrator</strong><br>Static CRM sample</p>
+  </aside>
+  <div class="page">
+    <header class="topbar">
+      <!-- The phone menu uses HTML details, so JavaScript is not needed. -->
+      <details class="mobile-menu">
+        <summary>☰ Menu</summary>
+        <nav aria-label="Phone navigation">
+          <a href="index.html" class="active">Dashboard</a>
+          <a href="customers.html">Customers</a>
+          <a href="projects.html">Projects</a>
+          <a href="tickets.html">Tickets</a>
+          <a href="leads.html">Leads</a>
+          <a href="inquiries.html">Inquiries</a>
+          <a href="reports.html">Reports</a>
+        </nav>
+      </details>
+      <span>Workspace / A good day to build connections.</span>
+      <div class="button-row">
+        <a href="client-access.html">Client portal</a>
+        <a href="inquiry.html">Public inquiry</a>
+      </div>
+    </header>
+    <main>
+      <div class="page-title">
+        <div>
+          <span class="eyebrow">CLIENTFLOW CRM</span>
+          <h1>A good day to build connections.</h1>
+          <p>An overview of your customers, projects, and conversations.</p>
+        </div>
+        <a class="button" href="new-customer.html">+ New customer</a>
+      </div>
+      <!-- Sample records are written directly below. Edit this HTML to change them. -->
+      <div class="stats">
+        <section class="stat"><span class="muted">Total customers</span><strong>6</strong><small>Connected customer accounts</small></section>
+        <section class="stat"><span class="muted">Active tickets</span><strong>4</strong><small>1 reopened issue</small></section>
+        <section class="stat"><span class="muted">Active leads</span><strong>5</strong><small>Across the sales pipeline</small></section>
+        <section class="stat"><span class="muted">Follow-ups due</span><strong>3</strong><small>Today and overdue</small></section>
+      </div>
+      <section class="banner">
+        <div><h2>4 active tickets. Keep every conversation moving.</h2><p>Review customer issues and plan the next step.</p></div>
+        <a class="button secondary" href="tickets.html">View tickets →</a>
+      </section>
+      <div class="grid">
+        <section class="card">
+          <div class="card-heading"><h2>Recent tickets</h2><a href="tickets.html">View all →</a></div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Ticket</th><th>Customer</th><th>Status</th><th>Priority</th><th>Created</th></tr></thead>
+          <tbody>
+            <tr>
+              <td data-label="Ticket"><a href="ticket-detail.html">Checkout confirmation email not received</a><small>#1042</small></td>
+              <td data-label="Customer">Everest Digital</td>
+              <td data-label="Status"><span class="badge blue">Open</span></td>
+              <td data-label="Priority"><span class="badge red">High</span></td>
+              <td data-label="Created">Oct 9</td>
+            </tr>
+            <tr>
+              <td data-label="Ticket"><strong>Update the seasonal booking calendar</strong><small>#1041</small></td>
+              <td data-label="Customer">Himalayan Ventures</td>
+              <td data-label="Status"><span class="badge amber">In Progress</span></td>
+              <td data-label="Priority"><span class="badge amber">Medium</span></td>
+              <td data-label="Created">Oct 8</td>
+            </tr>
+            <tr>
+              <td data-label="Ticket"><strong>Mobile product images appear cropped</strong><small>#1040</small></td>
+              <td data-label="Customer">Everest Digital</td>
+              <td data-label="Status"><span class="badge amber">Awaiting Client Response</span></td>
+              <td data-label="Priority"><span class="badge amber">Medium</span></td>
+              <td data-label="Created">Oct 7</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+        </section>
+        <div class="stack">
+          <section class="card">
+            <h2>Upcoming follow-ups</h2>
+            <div class="list-item"><strong>Peak Logistics</strong><p>First contact · Oct 8</p><span class="badge red">Overdue</span></div>
+            <div class="list-item"><strong>Summit Hospitality</strong><p>Discuss proposal · Oct 9</p><span class="badge amber">Today</span></div>
+            <div class="list-item"><strong>Oakridge Realty</strong><p>Confirm requirements · Oct 9</p><span class="badge amber">Today</span></div>
+          </section>
+          <section class="card"><h2>Recent activity</h2><p>Northstar Studio reopened ticket #1039.</p><p class="muted">A new inquiry arrived from Sabina KC.</p></section>
+        </div>
+      </div>
+      <footer>ClientFlow · Static UI with dummy data · No backend</footer>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
